@@ -1,6 +1,10 @@
 # kubernetes-wordpress
 A sample wordpress app to deploy in kubernetes using sql backend
 
+To install all the wordpress and sql deployment and service yaml plus ingress use the following command.
+
+kubectl apply -f .
+
 Now you can finish the installation of your Wordpress application using the following details :
 
 Database name : wordpress as defined in the DB’s yaml file
